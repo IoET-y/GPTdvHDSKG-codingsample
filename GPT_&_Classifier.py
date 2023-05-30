@@ -32,13 +32,6 @@ def ask_gpt(prompt):
     answer = response.choices[0].text.strip()  # Extract the answer text
     return answer
 
-# def main(text):
-#      question = input("Ask your question (type 'quit' to exit): ")
-#        if question.lower() == "quit":
-#            break
-#        prompt = f"Answer the following question: {question}"
-#        answer = ask_gpt(prompt)
-#        print(f"Answer: {answer}")
 
 if __name__ == "__main__":
     # file = open('allSent_test2.txt')
